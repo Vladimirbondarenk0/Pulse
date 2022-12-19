@@ -56,12 +56,21 @@
         font-size: 16px;
         color: #FFFFFF;
         margin-top: 15px;
+
         a {
             color: #FFFFFF;
             text-decoration: underline;
             text-transform: uppercase;
+
+            &:hover {
+                text-decoration-line: underline;
+                color: #ffdbdb;
+            }
         }
 
     }
 
+    .xs-visible {
+        display: none
+    }
 }
