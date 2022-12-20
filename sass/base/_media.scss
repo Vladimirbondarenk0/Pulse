@@ -1,6 +1,6 @@
 @media (max-width: 991px) {
     .container {
-        width: 760px;
+        width: 740px;
     }
 
     .header {
@@ -58,7 +58,7 @@
     }
 
     .benefits {
-        &__header {
+        .title {
             font-size: 25px;
         }
 
@@ -73,9 +73,23 @@
             padding: 0 10px;
         }
     }
+
+    .consultation {
+        min-height: 620px;
+        padding: 80px 0 65px 0;
+
+        &__title {
+            font-size: 33px;
+            line-height: 45px;
+        }
+
+        &__descr {
+            font-size: 16px;
+        }
+    }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 790px) {
     .container {
         width: 545px;
     }
@@ -162,7 +176,7 @@
     }
 
     .benefits {
-        &__header {
+        .title {
             font-size: 25px;
         }
 
@@ -180,6 +194,38 @@
             width: 60%;
             margin: 0 auto;
             padding: 5px 0 25px 0;
+        }
+    }
+
+    .consultation {
+        min-height: 515px;
+        padding: 45px 0 40px 0;
+
+        &__title {
+            font-size: 25px;
+            line-height: 35px;
+        }
+
+        &__descr {
+            font-size: 14px;
+        }
+
+        .form-feed {
+            width: 270px;
+            padding-top: 25px;
+
+            input {
+                height: 45px;
+                padding: 0 15px;
+                font-size: 13px;
+            }
+        }
+
+        .button {
+            &__submit {
+                height: 50px;
+                font-size: 15px;
+            }
         }
     }
 
@@ -226,10 +272,50 @@
 
         }
     }
+
+    .consultation {
+        min-height: 460px;
+
+        &__title {
+            font-size: 25px;
+            line-height: 32px;
+            padding: 0 15px;
+        }
+
+        &__descr {
+            padding-left: 15px;
+            padding-top: 5px;
+        }
+
+        .form-feed {
+            width: 250px;
+            padding-left: 15px;
+
+            input {
+                height: 40px;
+                padding: 0 10px;
+                font-size: 12px;
+                margin-bottom: 8px;
+
+                &:nth-child(3) {
+                    margin-bottom: 15px;
+                }
+            }
+        }
+
+        .button {
+            &__submit {
+                height: 45px;
+                font-size: 14.5px;
+            }
+        }
+    }
 }
 
 @media (max-width: 490px) {
     .promo {
+        background: url(../img/bg/bg.png) -177px center/1250px 562px no-repeat;
+
         .header {
             &__ofitial {
                 display: none;
@@ -249,6 +335,10 @@
             text-align: center;
         }
 
+        &__wrapper{
+            margin-top: 40px;
+        }
+
         &__icons {
             width: 300px;
         }
@@ -258,14 +348,49 @@
             height: 36px;
             font-size: 12px;
         }
-        &__link{
+
+        &__link {
             font-size: 10px;
         }
     }
 
     .benefits {
-        &__header {
+        .title {
             font-size: 23px;
+        }
+    }
+
+    .consultation {
+        background: url(../img/bg/bg2.png) center center/750px 500px no-repeat;
+        min-height: 460px;
+        padding-top: 40px;
+
+        &__title {
+            text-align: center;
+            font-size: 19px;
+            line-height: 27px;
+        }
+
+        &__descr {
+            text-align: center;
+            padding-left: 0;
+            font-size: 13px;
+        }
+
+        .form-feed {
+            margin: 0 auto;
+            padding-left: 0;
+            width: 240px;
+
+            input {
+                font-size: 11px;
+                height: 35px;
+            }
+
+            .button__submit {
+                height: 40px;
+                font-size: 13.5px;
+            }
         }
     }
 
