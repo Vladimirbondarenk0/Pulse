@@ -1,0 +1,36 @@
+.consultation {
+    min-height: 680px;
+    padding: 100px 0 92px 0;
+    background: url('../img/bg/bg2.png') center (center/cover) no-repeat;
+
+    &__title {
+        font-weight: 700;
+        font-size: 36px;
+        color: #FFFFFF;
+        text-align: left;
+        line-height: 54px;
+    }
+
+    &__descr {
+        font-weight: 500;
+        font-size: 20px;
+        text-align: left;
+        color: #FFFFFF;
+    }
+    .error {
+        border: solid 2px $main-color;
+    }
+
+    label.error {
+        color: #FFFFFF;
+        font-size: 13px;
+        border: none;
+        text-align: center;
+    }
+
+    &_PK {
+        margin-top: 10px;  
+        font-size: 11px;
+        color: #FFFFFF;
+    }
+}

@@ -1,0 +1,49 @@
+.form-feed {
+    width: 300px;
+    display: flex;
+    padding-top: 26px;
+    flex-direction: column;
+
+    input {
+        width: 100%;
+        margin-bottom: 13px;
+        height: 54px;
+        border-radius: 7px;
+        border: none;
+        padding: 0 10px;
+        margin: 10px 0 3px 0;
+        font-weight: 400;
+        font-size: 14px;
+        color: #4B4B4B;
+    }
+
+    &_mt25 {
+        padding-top: 15px;
+    }
+}
+
+.modal__policy {
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    align-items: center;
+    justify-content: center;
+    font-size: 11px;
+
+    input {
+        cursor: pointer;
+        width: 13px;
+        height: 13px;
+        margin: 0 10px 2px 0;
+    }
+
+    a {
+        color: rgb(134, 179, 243);
+        text-decoration: none;
+
+        &:hover {
+            text-decoration-line: underline;
+            color: rgb(87, 154, 248);
+        }
+    }
+}

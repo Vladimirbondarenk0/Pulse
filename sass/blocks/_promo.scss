@@ -1,0 +1,81 @@
+.promo {
+    background: url('../img/bg/run_men.png') center (center/cover) no-repeat;
+    min-height: 650px;
+
+    .dark {
+        padding: 21px 0 93px 0;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.40);
+    }
+
+    &__wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        margin-top: 91px;
+    }
+
+    &__header {
+        font-weight: 700;
+        font-size: 42px;
+        line-height: 42px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
+
+    &__subheader {
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 33px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
+
+    &__icons {
+        margin-top: 60px;
+        display: flex;
+        justify-content: space-between;
+        width: 425px;
+
+        .promo__icon {
+            text-align: center;
+
+            img {
+                display: block;
+                margin: 0 auto;
+            }
+        }
+
+        .descr {
+            margin-top: 24px;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 14px;
+            text-align: center;
+            color: #FFFFFF;
+        }
+    }
+
+    &__link {
+        font-weight: 500;
+        font-size: 16px;
+        color: #FFFFFF;
+        margin-top: 15px;
+
+        a {
+            color: #FFFFFF;
+            text-decoration: underline;
+            text-transform: uppercase;
+
+            &:hover {
+                text-decoration-line: underline;
+                color: #ffdbdb;
+            }
+        }
+
+    }
+
+    .xs-visible {
+        display: none
+    }
+}
